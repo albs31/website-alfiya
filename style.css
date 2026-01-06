@@ -1,0 +1,263 @@
+.home-page .custom-btn {
+    /* styles for your button on the home page */
+    background-color: #ADD8E6;
+    color: white;
+    font-family: URW Gothic L;
+    font-style: oblique;
+    font-size: 22px;
+    padding: 15px 35px;
+    border-radius: 12px;
+    display: inline-block;
+    transition: background-color 0.4s ease;
+    text-decoration: none;
+}
+.whoami .custom-btn {
+    background-color: #ADD8E6;
+    color: white;
+    font-family: URW Gothic L;
+    font-style: oblique;
+    font-size: 22px;
+    padding: 15px 35px;
+    border-radius: 12px;
+    display: inline-block;
+    cursor: pointer;
+    transition: background-color 0.4s ease;
+    text-decoration: none;
+}.goals .custom-btn {
+    background-color: #ADD8E6;
+    color: white;
+    font-family: URW Gothic L;
+    font-style: oblique;
+    font-size: 22px;
+    padding: 15px 35px;
+    border-radius: 12px;
+    display: inline-block;
+    cursor: pointer;
+    transition: background-color 0.4s ease;
+    text-decoration: none;
+}
+.hobbies .custom-btn {
+    background-color: #ADD8E6;
+    color: white;
+    font-family: URW Gothic L;
+    font-style: oblique;
+    font-size: 22px;
+    padding: 15px 35px;
+    border-radius: 12px;
+    display: inline-block;
+    cursor: pointer;
+    transition: background-color 0.4s ease;
+    text-decoration: none;
+}
+.button-container {
+    display: flex;           
+    justify-content: center;
+    align-items: center;     
+    margin-top: 20px;        
+    gap: 20px; 
+}
+.home-page .custom-btn:hover {
+    background-color: #425f7b;
+}
+.whoami .custom-btn:hover {
+    background-color: #425f7b;
+}
+.hobbies .custom-btn:hover {
+    background-color: #425f7b;
+}
+.goals .custom-btn:hover {
+    background-color: #425f7b;
+}
+.home-page h1 {
+    color: #ADD8E6;
+    font-family: URW Gothic L;
+    font-style: oblique;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 30px;
+}
+.whoami h1 {
+    color: #ADD8E6;
+    font-family: URW Gothic L;
+    font-style: oblique;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 30px;
+}      
+.hobbies h1 {
+    color: #ADD8E6;
+    font-family: URW Gothic L;
+    font-style: oblique;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 30px;
+}      
+.whoami h2{
+    color: #ADD8E6;
+    font-family: URW Gothic L;
+    font-style: oblique;
+    text-align: center;
+    font-size: 30px;
+} 
+.whoami h3{
+    color: #ADD8E6;
+    font-family: URW Gothic L;
+    font-size: 25px;
+    font-style: oblique;
+    text-align: center;
+}
+.home-page p {
+  font-size: 16px;
+  text-align: center;
+  font-family: monospace;
+}
+.whoami p {
+color: white;
+  font-size: 20px;
+  text-align: center;
+  font-family: monospace;
+  text-align: center;
+}
+.hobbies p {
+color: white;
+  font-size: 16px;
+  text-align: center;
+  font-family: monospace;
+  text-align: left;
+}
+.home-page {
+    background-color: #00001A; 
+    color: white;               
+    min-height: 100vh;
+}
+.hobbies {
+    background-color: #00001A; 
+    color: white;               
+    min-height: 100vh;
+}
+.whoami {
+     background-color: #00001A; 
+    color: white;               
+    min-height: 100vh;
+}
+.button-container {
+    display: flex;           
+    justify-content: center;
+    align-items: center;     
+    margin-top: 20px;        
+}
+.gallery {
+    padding-top: 30px;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    justify-content: center;
+    overflow-x: auto;  
+}
+body, html {
+    cursor: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="%23ADD8E6" d="M19.27 15.32 7.77 1.61A1 1 0 0 0 6 2.25v17.89a1 1 0 0 0 1.64.77l3.08-2.58 1.56 4.3a1 1 0 0 0 1.28.6l1.88-.68a1 1 0 0 0 .6-1.28l-1.56-4.3h4.02a1 1 0 0 0 .77-1.64Z"></path></svg>') 16 16, auto;
+}
+.home-page .custom-btn:hover {
+    cursor: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="%23ADD8E6" d="M22 11c-4.96 0-9-4.04-9-9 0-1.32-2-1.32-2 0 0 4.96-4.04 9-9 9-1.32 0-1.32 2 0 2 4.96 0 9 4.04 9 9 0 1.32 2 1.32 2 0 0-4.96 4.04-9 9-9 1.32 0 1.32-2 0-2Z"></path></svg>') 16 16, pointer;
+}
+.whoami .custom-btn:hover {
+    cursor: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="%23ADD8E6" d="M22 11c-4.96 0-9-4.04-9-9 0-1.32-2-1.32-2 0 0 4.96-4.04 9-9 9-1.32 0-1.32 2 0 2 4.96 0 9 4.04 9 9 0 1.32 2 1.32 2 0 0-4.96 4.04-9 9-9 1.32 0 1.32-2 0-2Z"></path></svg>') 16 16, pointer;
+}
+.gallery img {
+    width: 200px;
+    box-sizing: border-box; 
+    flex-shrink: 0;        
+}
+img {
+  width: 200px;
+  height: auto;              
+  object-fit: cover;         
+  box-sizing: border-box;    
+  border-style: double;
+  border-width: 10px;
+  border-color: #ADD8E6;
+  border-radius: 10px;
+}
+.big-img {
+    width: 300px;
+    height: auto;
+    object-fit: cover;         
+    box-sizing: border-box;    
+    border-style: double;
+    border-width: 10px;
+    border-color: #ADD8E6;
+    border-radius: 10px;
+}
+.image-text-container {
+    display: flex;           
+    align-items: center;     
+    gap: 20px;               
+    margin: 20px 0;         
+}
+
+.whoami .image-text-container {
+    display: flex;
+    justify-content: center;     
+    align-items: center;         
+    gap: 30px;
+    margin: 40px auto;           
+    max-width: 900px;            
+}
+.hobbies li {
+    color: #ADD8E6;
+    font-family: URW Gothic L;
+    font-size: 18px;
+    font-style: oblique;
+}
+.hobbies .gallery {
+    padding-bottom: 40px;   
+}
+.goals {
+    background-color: #00001A;
+    color: white;
+    min-height: 100vh;
+}
+.goals h1 {
+    color: #ADD8E6;
+    font-family: URW Gothic L;
+    font-style: oblique;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+/* Layout container */
+.goals-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px;
+    flex-wrap: wrap;
+}
+.goal-card {
+    background-color: rgba(173, 216, 230, 0.08);
+    border: 2px solid #ADD8E6;
+    border-radius: 15px;
+    padding: 25px;
+    width: 280px;
+    text-align: center;
+}
+.goal-card h2 {
+    color: #ADD8E6;
+    font-family: URW Gothic L;
+    font-style: oblique;
+    margin-bottom: 15px;
+}
+.goal-card p {
+    font-family: monospace;
+    font-size: 16px;
+    color: white;
+}
+.goal-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.goal-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 25px rgba(173, 216, 230, 0.3);
+}
